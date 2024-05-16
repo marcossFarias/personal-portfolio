@@ -1,4 +1,4 @@
-import { useEffect, userState} from 'react';
+import { useEffect, useState} from 'react';
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -12,8 +12,8 @@ import navicon3 from '../assets/img/nav-icon3.svg'
 
 
 function PortifolioNavBar() {
-    cosnt [activeLink, setActiveLink] = userState('home');
-    const [scrolled, setScrolled] = userState(false);
+    const [activeLink, setActiveLink] = useState('home');
+    const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
         const onScroll = () => {
