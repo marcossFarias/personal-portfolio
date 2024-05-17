@@ -8,13 +8,17 @@ import AboutMe from './components/AboutMe';
 
 const AppRouter = () => (
   <Router>
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/about-me" element={<AboutMe/>} />
-    </Routes>
-    <Footer />
+    <div className="app-container">
+      <Navbar />
+      <div className="app-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about-me" element={<AboutMe />} />
+        </Routes>
+      </div>
+      <Footer />
+    </div>
   </Router>
 );
 

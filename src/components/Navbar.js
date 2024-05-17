@@ -6,7 +6,6 @@ import './styles.css';
 const Navbar = () => (
   <BootstrapNavbar bg="dark" variant="dark" expand="lg">
     <Container>
-      
       <BootstrapNavbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <NavItem>
