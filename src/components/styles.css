@@ -1,62 +1,84 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content-container {
+  flex: 1;
+}
+
 /* Home.js */
 .navbar {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  .navbar-brand,
-  .nav-link {
-    color: #fff;
-  }
-  
-  .nav-link:hover {
-    color: #ccc;
-  }
-  
-  #welcome-section {
-    background-color: #f8f9fa;
-    padding: 5rem 0;
-    text-align: center;
-  }
-  
-  /* Projects.js */
-  #projects {
-    background-color: #fff;
-  }
-  
-  .project-tile {
-    background-color: #f8f9fa;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
-  }
-  
-  .project-tile:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .project-tile a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .project-tile a:hover {
-    color: #007bff;
-  }
-  
-  /* Footer.js */
-  #footer {
-    background-color: #333;
-    color: #fff;
-    padding: 2rem 0;
-  }
-  
-  #footer a {
-    color: #fff;
-  }
-  
-  #footer a:hover {
-    color: #ccc;
-  }
-  
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+#welcome-section {
+  background-color: #f8f9fa;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+/* Projects.js */
+#projects {
+  background-color: #fff;
+}
+
+.project-tile {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.project-tile:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-tile a {
+  color: #333;
+  text-decoration: none;
+}
+
+.project-tile a:hover {
+  color: #007bff;
+}
+
+/* Footer.js */
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#footer a:hover {
+  color: #ccc;
+}
+
+/* About.js */
+.about-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

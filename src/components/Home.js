@@ -11,6 +11,9 @@ const Home = () => (
         <NavItem>
           <NavLink as={Link} to="/projects">Projects</NavLink>
         </NavItem>
+        <NavItem>
+          <NavLink as={Link} to="/about-me">About Me</NavLink>
+        </NavItem>
       </Nav>
     </Navbar>
 
