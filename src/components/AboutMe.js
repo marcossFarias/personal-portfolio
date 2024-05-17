@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './styles.css';
+import Navbar from './Navbar';
 
 const AboutMe = () => {
   return (

@@ -19,14 +19,30 @@ html, body, #root {
 
 /* Navbar */
 .navbar {
-  background-color: #333;
-  color: #fff;
+  background-color: #333 !important;
+  padding: 1rem 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
-.navbar-brand,
+.navbar-brand {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+  margin-right: 2rem !important;
+}
+
+.navbar-nav {
+  display: flex !important;
+  align-items: center !important;
+}
+
 .nav-link {
   color: #fff !important;
-  font-weight: 500;
+  font-weight: 500 !important;
+  margin: 0 1rem !important;
+  transition: color 0.3s ease !important;
 }
 
 .nav-link:hover {
