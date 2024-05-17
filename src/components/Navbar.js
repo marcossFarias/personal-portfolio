@@ -6,8 +6,7 @@ import './styles.css';
 const Navbar = () => (
   <BootstrapNavbar bg="dark" variant="dark" expand="lg">
     <Container>
-      <BootstrapNavbar.Brand as={Link} to="/">Marcos Portfolio Page</BootstrapNavbar.Brand>
-      <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
+      
       <BootstrapNavbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <NavItem>
