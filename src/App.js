@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<NavBar />} />
-          <Route path="/about-me" component={AboutMe} />
+          <Route path="/about-me" element={<AboutMe />} />
         </Routes>
       </BrowserRouter>
     </div>
