@@ -13,7 +13,19 @@ const Projects = () => (
 
       <Col xs={12} md={6} lg={4} xl={3}>
         <div className="project-tile">
-          <p><a href="https://www.java.com/" target="_blank" rel="noopener noreferrer">Java Platform</a></p>
+          <p><a href="https://github.com/marcossFarias/survey-form" target="_blank" rel="noopener noreferrer">Survey Form for FreeCode Camp</a></p>
+        </div>
+      </Col>
+
+      <Col xs={12} md={6} lg={4} xl={3}>
+        <div className="project-tile">
+          <p><a href="https://github.com/marcossFarias/tribute-page" target="_blank" rel="noopener noreferrer">Tribute Page for FreeCode Camp</a></p>
+        </div>
+      </Col>
+
+      <Col xs={12} md={6} lg={4} xl={3}>
+        <div className="project-tile">
+          <p><a href="https://github.com/marcossFarias/personal-protfolio" target="_blank" rel="noopener noreferrer">Personal Protfolio for FreeCode Camp</a></p>
         </div>
       </Col>
     </Row>
