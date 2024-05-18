@@ -64,32 +64,37 @@ html, body, #root {
 }
 
 /* Projects */
-#projects {
-  background-color: #1e1e1e;
-  padding: 4rem 0;
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
 }
 
-.project-tile {
-  background-color: #333;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease;
-  margin-bottom: 2rem;
+.project-card:hover {
+  transform: translateY(-5px);
 }
 
-.project-tile:hover {
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+.project-card .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
-.project-tile a {
-  color: #f1f1f1;
-  text-decoration: none;
-  font-weight: 500;
+.project-card .card-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
-.project-tile a:hover {
+.project-card .card-link {
+  font-weight: bold;
   color: #007bff;
+  text-decoration: none;
+}
+
+.project-card .card-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
 }
 
 /* Footer */
