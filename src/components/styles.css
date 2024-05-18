@@ -112,20 +112,71 @@ html, body, #root {
 }
 
 /* About Page */
-.about-image {
+.about-section {
+  background-color: #333;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center; 
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+
+.about-section h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
+
+.about-section img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.1);
 }
 
-.about-content h3 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
+.about-section .btn {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.8rem 1.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
 }
 
-.about-content p {
-  line-height: 1.6;
-  margin-bottom: 1rem;
+.about-section .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsividade */
+@media (max-width: 767px) {
+  .about-section h2 {
+    font-size: 2rem;
+  }
+
+  .about-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .about-section p {
+    font-size: 1rem;
+  }
+
+  .about-section .btn {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+  }
 }
